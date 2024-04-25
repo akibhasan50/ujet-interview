@@ -1,0 +1,33 @@
+.App {
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+.convert-btn {
+margin-top: 20px;
+padding: 10px 20px;
+font-size: 20px;
+background-color: #007bff;
+color: white;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+.convert-btn:disabled {
+background-color: #617285;
+cursor: not-allowed;
+}
+.input-link {
+display: block;
+width: 20%;
+padding: 10px;
+font-size: 20px;
+border-radius: 5px;
+border: 1px solid #ced4da;
+}
+.link-display {
+margin-top: 20px;
+font-size: 20px;
+}
